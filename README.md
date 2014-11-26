@@ -1,4 +1,4 @@
 boilerkevz
 ==========
 
-HTML5 boilerplate with Sass and BrowserSync
+HTML5 boilerplate with Gulp, Sass and BrowserSync
