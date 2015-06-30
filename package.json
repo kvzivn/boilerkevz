@@ -1,15 +1,20 @@
 {
-  "name": "timeline",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "name": "boilerkevz",
+  "version": "0.1.0",
+  "description": "Frontend Boilerplate to start a web project from the scratch",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kvzivn/boilerkevz.git"
   },
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "frontend",
+    "frontendboilerplate",
+    "boilerplate"
+  ],
+  "author": "Kevin Ivan (hello@kevinivan.com)",
+  "homepage": "https://github.com/kvzivn/boilerkevz",
   "devDependencies": {
-    "browser-sync": "^1.7.0",
-    "gulp": "^3.8.10"
+    "gulp": "^3.9.0",
+    "gulp-stylus": "^2.0.5"
   }
 }
