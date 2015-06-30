@@ -1,1 +1,1 @@
-/* JavaScript by Kevin Ivan */
+/* really shitty JS goes here */
