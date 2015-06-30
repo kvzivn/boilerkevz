@@ -1,7 +1,7 @@
 {
   "name": "boilerkevz",
-  "version": "0.1.0",
-  "description": "Frontend Boilerplate to start a web project from the scratch",
+  "version": "1.33.7",
+  "description": "A front-end scaffold for small web projects",
   "repository": {
     "type": "git",
     "url": "https://github.com/kvzivn/boilerkevz.git"
