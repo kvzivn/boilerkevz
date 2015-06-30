@@ -2,8 +2,6 @@ import gulp from 'gulp';
 import stylus from 'gulp-stylus';
 import browserSync from 'browser-sync';
 
-const reload = browserSync.reload;
-
 
 
 gulp.task('bs', () => {
@@ -19,7 +17,7 @@ gulp.task('bs', () => {
 
 gulp.task('watch', () => {
     gulp.watch('stylesheets/*.styl', ['styles']);
-    gulp.watch('*.html', reload);
+    gulp.watch('*.html', browserSync.reload);
 });
 
 
