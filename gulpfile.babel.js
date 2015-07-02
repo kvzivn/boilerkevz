@@ -2,22 +2,18 @@ import gulp from 'gulp';
 import stylus from 'gulp-stylus';
 import browserSync from 'browser-sync';
 
+const reload = browserSync.reload;
 
-
-gulp.task('bs', () => {
+gulp.task('bs', ['styles'], () => {
     browserSync({
         server: {
             baseDir: './'
         },
         browser: ['google chrome canary']
     });
-});
 
-
-
-gulp.task('watch', () => {
-    gulp.watch('stylesheets/*.styl', ['styles']);
-    gulp.watch('*.html', browserSync.reload);
+    gulp.watch(['*.html'], reload);
+    gulp.watch(['stylesheets/*.styl'], ['styles', reload]);
 });
 
 
@@ -27,10 +23,9 @@ gulp.task('styles', () => {
         .pipe(stylus({
             compress: false
          }))
-        .pipe(gulp.dest('stylesheets/'))
-        .pipe(reload({stream:true}));
+        .pipe(gulp.dest('stylesheets/'));
 });
 
 
 
-gulp.task('default', ['watch', 'bs']);
+gulp.task('default', ['bs']);
