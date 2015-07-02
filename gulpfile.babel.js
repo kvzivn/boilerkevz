@@ -16,8 +16,6 @@ gulp.task('bs', ['styles'], () => {
     gulp.watch(['stylesheets/*.styl'], ['styles', reload]);
 });
 
-
-
 gulp.task('styles', () => {
     return gulp.src('stylesheets/*.styl')
         .pipe(stylus({
@@ -25,7 +23,5 @@ gulp.task('styles', () => {
          }))
         .pipe(gulp.dest('stylesheets/'));
 });
-
-
 
 gulp.task('default', ['bs']);
