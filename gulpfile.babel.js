@@ -10,7 +10,7 @@ gulp.task('bs', ['styles'], () => {
         server: {
             baseDir: './'
         },
-        browser: ['google chrome canary']
+        browser: ['google chrome']
     });
 
     gulp.watch(['index.html'], reload);
