@@ -1,7 +1,7 @@
 boilerkevz - a front-end scaffold for small web projects
 ==========
 
-** Gulp 4 + BrowserSync + Sass + Parcel **
+**Gulp 4 + BrowserSync + Sass + Parcel**
 
 ### Requirements
 Make sure all dependencies have been installed before moving on:
@@ -17,6 +17,6 @@ Clone this repository and run
 
 ### Tasks
 | Task Name | Description | Environment |
-| :------------- | :------------- | :------------- |
+| :------------- | :------------- |
 | `yarn start` or `npm run start` | Start the development environment and watch for changes
 | `yarn build` or `npm run build` | Compile production code
