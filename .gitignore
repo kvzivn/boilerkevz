@@ -1,2 +1,5 @@
 .DS_Store
+.cache/
+dist/
+css/
 node_modules/

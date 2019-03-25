@@ -2,22 +2,21 @@
   "name": "boilerkevz",
   "version": "1.33.7",
   "description": "A front-end scaffold for small web projects",
+  "author": "Kevin Ivan (hello@kevinivan.com)",
   "repository": {
     "type": "git",
     "url": "https://github.com/kvzivn/boilerkevz.git"
   },
-  "keywords": [
-    "frontend",
-    "frontendboilerplate",
-    "boilerplate"
-  ],
-  "author": "Kevin Ivan (hello@kevinivan.com)",
-  "homepage": "https://github.com/kvzivn/boilerkevz",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development gulp",
+    "build": "cross-env NODE_ENV=production parcel build index.html --public-url ./"
+  },
   "devDependencies": {
-    "babel": "^5.6.14",
-    "browser-sync": "^2.7.13",
-    "gulp": "^3.9.0",
-    "gulp-stylus": "^2.0.5",
-    "nano": "^6.1.4"
+    "autoprefixer": "^9.5.0",
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "normalize-scss": "^7.0.1"
   }
 }
