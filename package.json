@@ -8,8 +8,8 @@
     "url": "https://github.com/kvzivn/boilerkevz.git"
   },
   "scripts": {
-    "start": "cross-env NODE_ENV=development gulp",
-    "build": "cross-env NODE_ENV=production parcel build index.html --public-url ./"
+    "start": "gulp",
+    "build": "parcel build index.html --public-url ./"
   },
   "devDependencies": {
     "autoprefixer": "^9.5.0",
