@@ -16,7 +16,7 @@ Clone this repository and run
 - `yarn` or `npm install` to install dependencies
 
 ### Tasks
-| Task Name | Description | Environment |
+| Task Name | Description |
 | :------------- | :------------- |
 | `yarn start` or `npm run start` | Start the development environment and watch for changes
 | `yarn build` or `npm run build` | Compile production code
