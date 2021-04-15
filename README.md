@@ -1,4 +1,4 @@
-boilerkevz - a front-end scaffold for small web projects
+boilerkevz - a frontend scaffold for small web projects
 ==========
 
 **Gulp 4 + BrowserSync + Sass + Parcel**
